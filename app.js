@@ -9,7 +9,7 @@ const supabase = supabase.createClient(supabaseUrl, supabaseKey);
 // Загрузка кроссовок из базы
 async function loadSneakers() {
   const { data, error } = await supabase
-    .from('sneakers')
+    .from('sneakDB')
     .select('*');
 
   if (error) {
