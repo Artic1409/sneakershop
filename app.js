@@ -1,6 +1,4 @@
-if (typeof supabase === 'undefined') {
-  throw new Error("Supabase не загружен! Проверьте тег <script> в HTML");
-}
+
 // Конфиг Supabase (замените на свои значения!)
 const supabaseUrl = 'https://tqeeemvewrvlnsdhlkal.supabase.co';
 const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRxZWVlbXZld3J2bG5zZGhsa2FsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDQyMzE5ODAsImV4cCI6MjA1OTgwNzk4MH0.iu8q0lq7m0wr9ii9lNT3ODu2lOuMOdbsU4A2xPfdWUI';
